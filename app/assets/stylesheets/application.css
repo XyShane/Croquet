@@ -1,0 +1,341 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+header {
+
+	min-height: 100px;
+	min-width: 1200px;
+	max-width: 1349px;
+	max-height: 132px;
+	box-shadow: 10px 10px 5px #888888;
+  background-color:#2D3D47;
+}
+
+
+#navlist {
+	display: inline-block;
+	position: absolute;
+	margin: 0px 0 0 0;
+	min-height: 0px;
+  background-color:#FFFFFF;
+}
+
+#nav {
+  border-right:1px solid #999;
+  padding:10px 0px;
+  width:150px;
+  position: absolute;
+  display:none;
+  
+}
+
+.showhide {
+  
+  display:block; 
+  border-right:1px solid #999;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  background:url(cnavigation.png);
+  height:45px;
+  width: 151px;
+  text-indent:-9000px;
+  background-position: 0px 10px;
+  outline: none
+}
+
+.showhideDown {
+  
+  display:block; 
+  border-right:1px solid #999;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  background:url(cnavigation.png);
+  height:45px;
+  width: 151px;
+  text-indent:-9000px;
+  outline: none;
+  background-position: -161px 10px;
+    
+}
+
+.showhide:hover {
+  display:block;
+  background:url(cnavigation.png);
+  height:45px;
+  width 151px;
+  text-indent:-9000px;
+  background-position:-161px 10px;
+}
+
+#nav .link2 {
+  display:block;
+  background:url(cnavigation.png);
+  height:43px;
+  text-indent:-9000px;
+  background-position: 0px -30px;
+}
+
+#nav .link2:hover {
+   display:block;
+  background:url(cnavigation.png);
+  height:43px;
+  text-indent:-9000px;
+  background-position:-163px -30px;
+}
+
+#nav a.link3 {
+  display:block;
+  background:url(cnavigation.png);
+  height:43px;
+  text-indent:-9000px;
+  background-position:0px -75px;
+
+}
+
+#nav a.link3:hover{
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:43px;
+  text-indent:-9000px;
+  background-position:-165px -75px;
+
+}
+
+#nav .link4 {
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:60px;
+  text-indent:-9000px;
+  background-position:0px -117px;
+}
+
+#nav .link4:hover {
+  display:block;
+  background:url(cnavigation.png);
+  height:60px;
+  text-indent:-9000px;
+  background-position:-166.5px -117px;
+}
+
+#nav .link5 {  
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:60px;
+  text-indent:-9000px;
+  background-position:0px -177px;
+}
+
+#nav .link5:hover { 
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:60px;
+  text-indent:-9000px;
+  background-position:-164px -177px;
+
+}
+#nav .link6 {  
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:58px;
+  text-indent:-9000px;
+  background-position:0px -235px;
+  
+}
+#nav .link6:hover {  
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:58px;
+  text-indent:-9000px;
+  background-position:-163px -235px;
+  
+}
+#nav .link7 {  
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:58px;
+  text-indent:-9000px;
+  background-position:0px -289px;
+  
+}
+#nav .link7:hover { 
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:58px;
+  text-indent:-9000px;
+  background-position:-163px -289px;
+  
+}
+#nav .link8 {
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:60px;
+  text-indent:-9000px;
+  background-position:0px -342px;
+
+}
+#nav .link8:hover {  
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:60px;
+  text-indent:-9000px;
+  background-position:-161px -342px;
+
+}
+#nav .link9 {  
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:43px;
+  text-indent:-9000px;
+  background-position:0px -395px;
+  
+}
+#nav .link9:hover { 
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:43px;
+  text-indent:-9000px;
+  background-position:-161px -395px;
+
+}
+#nav .link10 { 
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:60px;
+  text-indent:-9000px;
+  background-position:0px -437px; 
+
+}
+#nav .link10:hover {  
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:60px;
+  text-indent:-9000px;
+  background-position:-161px -437px;
+
+}
+#nav .link11 { 
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:43px;
+  text-indent:-9000px;
+  background-position:0px -485px;
+
+}
+#nav .link11:hover {  
+  
+  display:block;
+  background:url(cnavigation.png);
+  height:43px;
+  text-indent:-9000px;
+  background-position:-161px -485px;
+
+}
+
+#sidebar{
+
+	display: block;
+	float:left;
+	min-width: 160px;
+  width 200px;
+	height: 100%;
+	margin-left:auto;
+	margin-right:auto;
+  background-color: #FFFFFF;
+
+}
+
+#head_label {
+	margin: 0;
+	padding: 0;
+	font-family: Segoe UI;
+	font-size: 200%;
+	color: #FF4500;
+}
+
+#head_logo {
+
+	margin-bottom: 0;
+	margin-top: -40px;
+	padding:-10px;
+	display:inline;
+	float: right;
+}
+
+#mainbody {
+
+	display: block;
+	padding-top: 40px;
+	padding-bottom: 50px;
+	min-width: 1000px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 70%;
+	box-shadow: 10px 10px 5px #000000;
+	border: 1px solid;
+	background-color: #FFFFFF;
+}
+
+#bodysec {
+	display: block;
+	min-height: 600px;
+	min-width: 400px;
+	padding-top: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	width: 70%;
+}
+
+
+footer {
+
+	display:block;
+	height: 100px;
+	width: 100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 50px;
+	margin-top: 0px;
+	background-color: #FFFFFF;
+
+}
+
+#footnote {
+
+	width: 30%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#background {
+
+	background:transparent url('grass.jpg') no-repeat center center;
+}

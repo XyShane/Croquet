@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CHEAM CROQUET & BOWLS CLUB</title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <%= render 'layouts/header' %>
+</head>
+<body>
+&nbsp
+<div id ="background">
+<section id ="sidebar">	
+<%= render 'layouts/navigation' %>
+</section>
+<section id ="mainbody">
+	<section id ="bodysec">
+	<%= yield %>
+	</section>
+</section>
+&nbsp
+<%= render 'layouts/footer'%>
+</div>
+</body>
+</html>
