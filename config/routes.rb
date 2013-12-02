@@ -1,4 +1,15 @@
 CroquetWeb::Application.routes.draw do
+  devise_for :users
+  resources :bookings
+
+  get "booking/index"
+  get "booking/book"
+  get "booking/show"
+  get "booking/new"
+  get "booking/create"
+  get "booking/destroy"
+  resources :newsletters
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   resources :programmes

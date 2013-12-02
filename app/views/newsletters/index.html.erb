@@ -1,0 +1,20 @@
+<h1>List of Newsletters</h1>
+
+<% date_stored = 0 %>
+
+ <% @newsletters.each do |newsletter| %>
+
+  <% if (date_stored != newsletter.date.year) %>
+<br>
+    <span><%=newsletter.date.year%></span>
+      <li><%= link_to newsletter.title, newsletter.pdf_url.to_s, :download => newsletter.title %></li>
+      <% date_stored = newsletter.date.year %>
+  <% else %>
+      <li><%= link_to newsletter.title, newsletter.pdf_url.to_s, :download => newsletter.title %></li>
+      <% date_stored = newsletter.date.year %>
+  <% end %>
+<% end %>
+
+<br>
+
+<%= link_to 'New Newsletter', new_newsletter_path %>

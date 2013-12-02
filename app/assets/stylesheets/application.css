@@ -14,7 +14,7 @@
 
 header {
 
-	min-height: 100px;
+	min-height: 132px;
 	min-width: 1200px;
 	max-width: 1349px;
 	max-height: 132px;
@@ -26,15 +26,17 @@ header {
 #navlist {
 	display: inline-block;
 	position: absolute;
-	margin: 0px 0 0 0;
+	margin: 0.1px 0 0 0;
+  padding: 0px;
 	min-height: 0px;
   background-color:#FFFFFF;
 }
 
 #nav {
   border-right:1px solid #999;
-  padding:10px 0px;
-  width:150px;
+  padding: 0px 0px;
+  margin: 0;
+  width: 174px;
   position: absolute;
   display:none;
   
@@ -42,17 +44,19 @@ header {
 
 .showhide {
   
-  display:block; 
+  display:block;
+  padding: 0;
+  margin: 0;
   border-right:1px solid #999;
   border-bottom: none;
   border-top: none;
   border-left: none;
   background:url(cnavigation.png);
   height:45px;
-  width: 151px;
+  width: 175px;
   text-indent:-9000px;
-  background-position: 0px 10px;
-  outline: none
+  background-position: 2px 5px;
+  outline: none;
 }
 
 .showhideDown {
@@ -64,10 +68,10 @@ header {
   border-left: none;
   background:url(cnavigation.png);
   height:45px;
-  width: 151px;
+  width: 175px;
   text-indent:-9000px;
   outline: none;
-  background-position: -161px 10px;
+  background-position: -173px 5px;
     
 }
 
@@ -75,9 +79,9 @@ header {
   display:block;
   background:url(cnavigation.png);
   height:45px;
-  width 151px;
+  width 175px;
   text-indent:-9000px;
-  background-position:-161px 10px;
+  background-position:-173px 5px;
 }
 
 #nav .link2 {
@@ -85,15 +89,15 @@ header {
   background:url(cnavigation.png);
   height:43px;
   text-indent:-9000px;
-  background-position: 0px -30px;
+  background-position: 2px -35px;
 }
 
 #nav .link2:hover {
-   display:block;
+  display:block;
   background:url(cnavigation.png);
   height:43px;
   text-indent:-9000px;
-  background-position:-163px -30px;
+  background-position:-175px -35px;
 }
 
 #nav a.link3 {
@@ -101,7 +105,7 @@ header {
   background:url(cnavigation.png);
   height:43px;
   text-indent:-9000px;
-  background-position:0px -75px;
+  background-position: 2px -75px;
 
 }
 
@@ -111,7 +115,7 @@ header {
   background:url(cnavigation.png);
   height:43px;
   text-indent:-9000px;
-  background-position:-165px -75px;
+  background-position:-176px -75px;
 
 }
 
@@ -121,7 +125,7 @@ header {
   background:url(cnavigation.png);
   height:60px;
   text-indent:-9000px;
-  background-position:0px -117px;
+  background-position: 2px -122px;
 }
 
 #nav .link4:hover {
@@ -129,7 +133,7 @@ header {
   background:url(cnavigation.png);
   height:60px;
   text-indent:-9000px;
-  background-position:-166.5px -117px;
+  background-position:-176.5px -122px;
 }
 
 #nav .link5 {  
@@ -138,7 +142,7 @@ header {
   background:url(cnavigation.png);
   height:60px;
   text-indent:-9000px;
-  background-position:0px -177px;
+  background-position: 2px -177px;
 }
 
 #nav .link5:hover { 
@@ -147,7 +151,7 @@ header {
   background:url(cnavigation.png);
   height:60px;
   text-indent:-9000px;
-  background-position:-164px -177px;
+  background-position:-174px -177px;
 
 }
 #nav .link6 {  
@@ -156,7 +160,7 @@ header {
   background:url(cnavigation.png);
   height:58px;
   text-indent:-9000px;
-  background-position:0px -235px;
+  background-position: 2px -235px;
   
 }
 #nav .link6:hover {  
@@ -165,7 +169,7 @@ header {
   background:url(cnavigation.png);
   height:58px;
   text-indent:-9000px;
-  background-position:-163px -235px;
+  background-position:-173px -235px;
   
 }
 #nav .link7 {  
@@ -174,7 +178,7 @@ header {
   background:url(cnavigation.png);
   height:58px;
   text-indent:-9000px;
-  background-position:0px -289px;
+  background-position: 2px -289px;
   
 }
 #nav .link7:hover { 
@@ -183,7 +187,7 @@ header {
   background:url(cnavigation.png);
   height:58px;
   text-indent:-9000px;
-  background-position:-163px -289px;
+  background-position:-173px -289px;
   
 }
 #nav .link8 {
@@ -192,7 +196,7 @@ header {
   background:url(cnavigation.png);
   height:60px;
   text-indent:-9000px;
-  background-position:0px -342px;
+  background-position: 2px -342px;
 
 }
 #nav .link8:hover {  
@@ -201,7 +205,7 @@ header {
   background:url(cnavigation.png);
   height:60px;
   text-indent:-9000px;
-  background-position:-161px -342px;
+  background-position:-171px -342px;
 
 }
 #nav .link9 {  
@@ -210,7 +214,7 @@ header {
   background:url(cnavigation.png);
   height:43px;
   text-indent:-9000px;
-  background-position:0px -395px;
+  background-position: 2px -395px;
   
 }
 #nav .link9:hover { 
@@ -219,7 +223,7 @@ header {
   background:url(cnavigation.png);
   height:43px;
   text-indent:-9000px;
-  background-position:-161px -395px;
+  background-position:-171px -395px;
 
 }
 #nav .link10 { 
@@ -228,7 +232,7 @@ header {
   background:url(cnavigation.png);
   height:60px;
   text-indent:-9000px;
-  background-position:0px -437px; 
+  background-position: 2px -437px; 
 
 }
 #nav .link10:hover {  
@@ -237,7 +241,7 @@ header {
   background:url(cnavigation.png);
   height:60px;
   text-indent:-9000px;
-  background-position:-161px -437px;
+  background-position:-171px -437px;
 
 }
 #nav .link11 { 
@@ -246,7 +250,7 @@ header {
   background:url(cnavigation.png);
   height:43px;
   text-indent:-9000px;
-  background-position:0px -485px;
+  background-position: 2px -485px;
 
 }
 #nav .link11:hover {  
@@ -255,7 +259,7 @@ header {
   background:url(cnavigation.png);
   height:43px;
   text-indent:-9000px;
-  background-position:-161px -485px;
+  background-position:-170px -485px;
 
 }
 
@@ -294,6 +298,7 @@ header {
 	display: block;
 	padding-top: 40px;
 	padding-bottom: 50px;
+  margin: 0px;
 	min-width: 1000px;
 	margin-left:auto;
 	margin-right:auto;
@@ -338,4 +343,16 @@ footer {
 #background {
 
 	background:transparent url('grass.jpg') no-repeat center center;
+  
+}
+
+#login_bar {
+  
+  height: 20px;
+  width: auto;
+  background:url('login_bar.jpg');
+  box-shadow: 10px 10px 5px #000000;
+  border: 2px solid;
+  border-top: none;
+    
 }

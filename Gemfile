@@ -10,6 +10,12 @@ gem 'carrierwave'
 
 gem 'rmagick'
 
+gem 'puma'
+
+gem 'rb-fsevent'
+
+gem 'validates_overlap'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 

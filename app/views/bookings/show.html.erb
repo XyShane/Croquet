@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @booking.date %>
+</p>
+
+<p>
+  <strong>Lawn:</strong>
+  <%= @booking.lawn %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= User.find(@booking.user_id).email %>
+</p>
+
+<p>
+  <strong>Start Time:</strong>
+  <%= @booking.start_time.strftime("%T") %>
+</p>
+<p>
+  <strong>End Time:</strong>
+  <%= @booking.end_time.strftime("%T") %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @booking.description %>
+</p>
+
+<%= link_to 'Edit', edit_booking_path(@booking) %> |
+<%= link_to 'Back', bookings_path %>

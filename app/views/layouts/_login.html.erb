@@ -1,0 +1,13 @@
+<div id="login_bar" align="right">
+  <% if user_signed_in? %>
+    Welcome <strong><%= current_user.email %></strong>!
+    <%= link_to 'Edit profile', edit_user_registration_path, :id => 'edit_profile_link' %> |
+    <%= link_to "Logout", destroy_user_session_path, method: :delete, :id => 'log_out_link'  %>
+  &nbsp
+  <% else %>
+    <span>Not yet a member? Register now or login!</span>
+    <%= link_to "Sign up", new_user_registration_path, :id => 'sign_up_link'  %> |
+    <%= link_to "Login", new_user_session_path, :id => 'login_link'  %>
+  &nbsp
+  <% end %>
+</div>

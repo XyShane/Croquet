@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2013-12-02
+  lawn_id: 1
+  user: MyText
+  time: MyText
+  status: MyText
+
+two:
+  date: 2013-12-02
+  lawn_id: 1
+  user: MyText
+  time: MyText
+  status: MyText
